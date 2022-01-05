@@ -64,7 +64,7 @@
     <PackageReference Update="RabbitMQ.Client" Version="6.2.2"/>
     <PackageReference Update="RavenDB.Client" Version="5.2.3"/>
     <PackageReference Update="SendGrid" Version="9.24.4"/>
-    <PackageReference Update="Serilog.Extensions.Logging" Version="3.0.1" />
+    <PackageReference Update="Serilog.Extensions.Logging" Version="3.1.0" />
     <PackageReference Update="Serilog.Sinks.ColoredConsole" Version="3.0.1" />
     <PackageReference Update="SolrNet.Core" Version="1.0.19"/>
     <PackageReference Update="SSH.Net" Version="2020.0.1"/>
