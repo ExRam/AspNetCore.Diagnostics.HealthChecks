@@ -65,7 +65,7 @@ jobs:
             ghcr.io/exram/aspnetcore.diagnostics.healthchecks.ui:${{ env.version5 }}
 
       - name: Bump version and push tag
-        uses: mathieudutour/github-tag-action@v5.3
+        uses: mathieudutour/github-tag-action@v6.1
         with:
           custom_tag: AspNetCore.Diagnostics.HealthChecks.UI-Docker-${{ env.version5 }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
