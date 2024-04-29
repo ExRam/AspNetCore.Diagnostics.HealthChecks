@@ -50,7 +50,7 @@ jobs:
           password: ${{ secrets.PACKAGES_TOKEN }}
 
       - name: Build Dockerfile
-        uses: docker/build-push-action@v2
+        uses: docker/build-push-action@v5
         with:
           push: true
           file: build/docker-images/HealthChecks.UI.Image/Dockerfile
