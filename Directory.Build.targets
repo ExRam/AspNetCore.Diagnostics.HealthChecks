@@ -1,7 +1,7 @@
 <Project>
 
   <ItemGroup Label="Package Versions">
-    <PackageReference Update="ArangoDBNetStandard" Version="1.0.0-alpha04"/>
+    <PackageReference Update="ArangoDBNetStandard" Version="3.0.0"/>
     <PackageReference Update="AWSSDK.DynamoDBv2" Version="3.7.0.89"/>
     <PackageReference Update="AWSSDK.S3" Version="3.7.3.21"/>
     <PackageReference Update="Azure.Data.Tables" Version="12.3.0"/>
@@ -55,7 +55,7 @@
     <PackageReference Update="MongoDB.Driver" Version="2.13.2"/>
     <PackageReference Update="MySqlConnector" Version="2.0.0"/>
     <PackageReference Update="NEST" Version="7.15.2"/>
-    <PackageReference Update="Newtonsoft.Json" Version="13.0.1"/>
+    <PackageReference Update="Newtonsoft.Json" Version="13.0.2"/>
     <PackageReference Update="Npgsql" Version="6.0.0"/>
     <PackageReference Update="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.0"/>
     <PackageReference Update="Oracle.ManagedDataAccess.Core" Version="2.19.130"/>
